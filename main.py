@@ -29,7 +29,6 @@ async def main():
                     html = await response.text()
                     soup = bs(html, 'lxml')
                     search_results_div = soup.find(id='searchResultsRows')
-                    print(f'{search_results_div=}')
                     count_elements = len(search_results_div.find_all('a', class_='market_listing_row_link'))
                     print(f'{count_elements=}')
                     if count_elements == 0:
