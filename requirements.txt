@@ -1,0 +1,6 @@
+aiogram
+aiohttp
+beautifulsoup4
+dotenv
+loguru
+lxml
