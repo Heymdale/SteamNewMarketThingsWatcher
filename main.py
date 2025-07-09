@@ -33,7 +33,7 @@ async def main():
                     print(f'{count_elements=}')
                     if count_elements == 0:
                         raise Exception('No elements was found')
-                    elif count_elements > 4:
+                    elif count_elements > 5:
                         await send_message(f'!!!AHTUNG!!!\n ButtSlapper added new crate!!!')
                     break
             except Exception as e:
